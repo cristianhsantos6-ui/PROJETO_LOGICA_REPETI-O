@@ -42,3 +42,36 @@ btnFrase.addEventListener('click', (evt) => {
 })
 
 
+//COLEÇÃO DE DADOS - ARRAY
+const presentes = ['Bicicleta', 'Celular', 'Camisa do coringão', 'Doleira', 'Tênis adidas']
+
+const divArray = document.querySelector('#div-array')
+
+  //divArray.innerHTML = presente[6]
+
+  for(i = 0;i <5;i++ ){
+    divArray.innerHTML += `${presentes[i]} <br>`
+  }
+
+  //FOR IN 
+  const divForIn = document.querySelector('#div-forin')
+
+  for(let posicao in presentes){
+    divForIn.innerHTML += `${presentes[posicao]} <br>`
+  }
+
+  //FOR OF
+  const divForOf = document.querySelector('#div-forof')
+
+  for (let elemento of presentes){
+    divDorOf.innerHTML += `${elemento} <br>`
+  }
+
+  //FOREACH
+  const divForeach = document.querySelector('#fiv-foreach')
+
+  presentes.forEach((elemento, i)=>{
+      divForeach.innerHTML += `${posicao} - ${elmento} <br>`
+  })
+
+  

@@ -64,7 +64,7 @@ const divArray = document.querySelector('#div-array')
   const divForOf = document.querySelector('#div-forof')
 
   for (let elemento of presentes){
-    divDorOf.innerHTML += `${elemento} <br>`
+    divForOf.innerHTML += `${elemento} <br>`
   }
 
   //FOREACH

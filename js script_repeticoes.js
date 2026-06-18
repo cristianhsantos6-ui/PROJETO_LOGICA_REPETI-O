@@ -68,10 +68,10 @@ const divArray = document.querySelector('#div-array')
   }
 
   //FOREACH
-  const divForeach = document.querySelector('#fiv-foreach')
+  const divForeach = document.querySelector('#div-foreach')
 
   presentes.forEach((elemento, i)=>{
-      divForeach.innerHTML += `${posicao} - ${elmento} <br>`
+      divForeach.innerHTML += `${posicao} - ${elemento} <br>`
   })
 
   //COLEÇÃO DE OBJETOS LITERAIS - ARRAY

@@ -70,7 +70,7 @@ const divArray = document.querySelector('#div-array')
   //FOREACH
   const divForeach = document.querySelector('#div-foreach')
 
-  letras.forEach((elemento, i)=>{
+  div.forEach((elemento, i)=>{
       divForeach.innerHTML += `${posicao + 1} - ${elemento} <br>`
   })
 

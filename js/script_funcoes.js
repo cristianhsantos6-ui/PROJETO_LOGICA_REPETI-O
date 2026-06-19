@@ -1,0 +1,26 @@
+
+function mensagem(){
+    console.log('Uma mensagem')
+}
+
+mensagem()
+
+function mensagemLinda(txt){
+    console.log(txt)
+}
+
+mensagemLinda('Brasil vai dar um pau no Haiti')
+
+function somaNumeros(num1, num2){
+    return num1 + num2
+}
+
+console.log('As soma dos números',somaNumeros(10, 58))
+
+const multiplicacao = function(num1, num2){
+    return num1 * num2
+}
+
+console.log(multiplicacao(64, 5))
+
+console.log('-------> ARROW FUNCTION <-----')
